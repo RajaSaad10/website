@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .headerTopEmail {
+      margin-left: 5px;
+      color: white;
+    }
+    input[type="text"] {
+  /* flex: 3; */
+  width: 50%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.com{
+  width: 5%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.search-domain{
+  /* flex: 1; */
+  padding: 10px;
+  background-color: lawngreen; /* Green color */
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  /* border-color: black; */
+
+}
+
+input[type="submit"] {
+  flex: 1;
+  padding: 10px;
+  background-color: #2ECC71; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body style="margin: 0px;padding: 0px;">
+  <header>
+    <div class="headerTop">
+      <div style="display: flex;padding: 0.5% 0%;">
+        <div style="display: flex;">
+          <img width="25" height="25" src="https://img.icons8.com/plasticine/100/new-post--v1.png" alt="new-post--v1" />
+          <span class="headerTopEmail">Contact@companyname.com</span>
+        </div>
+        <div style="display: flex;margin-left: 30px;">
+          <div>
+            <i class="fa-solid fa-phone" style="color: #ffffff;margin-left: 5px;"></i>
+          </div>
+          <div style="margin-left: 10px;">
+            <span style="color: white;"><span style="font-weight: bold;">Call Us : </span>1800-1234-1234-1234</span>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; margin-left: 40%;margin-top: 10px;">
+        <div>
+          <i class="fa-solid fa-gift" style="color: #ffffff;"></i>
+          <span style="color: #ffffff;">Offers</span>
+        </div>
+        <span style="color: white;margin: 0% 10px;">
+          |
+        </span>
+        <div>
+          <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+          <span style="color: white;">Log In</span>
+        </div>
+        <span style="color: white; margin: 0% 10px;">
+          |
+        </span>
+        <div>
+          <i class="fa-solid fa-pencil" style="color: #ffffff;"></i>
+          <span style="color: white;">Sign Up</span>
+        </div>
+      </div>
+    </div>
+    <div class="headerMiddle">
+        <div style="padding-top: 1%;">
+          <span style="color: black;font-weight: bold; font-size: 30px;">LOGO</span>
+          <span style="color: lawngreen;font-weight: bold; font-size: 30px;">HERE</span>
+        </div>
+        <div style="display: flex; margin-left: 58%;padding-top: 1.5%;">
+          <div>
+            <i class="fa-sharp fa-solid fa-comments" style="color: black;"></i>
+            <span style="color: black;">Live Chat</span>
+          </div>
+          <span style="color: black ;margin: 0% 10px;">
+            |
+          </span>
+          <div>
+            <i class="fa-solid fa-headset" style="color: black;"></i>
+            <span style="color: black;">Support</span>
+          </div>
+          <span style="color: black; margin: 0% 10px;">
+            |
+          </span>
+          <div>
+            <i class="fa-solid fa-cart-shopping" style="color: black;"></i>
+            <span style="color: black;">Veiw Cart</span>
+          </div>
+        </div>
+      
+
+    </div>
+    <div style="background-color: gray;">
+    
+      <ul class="nav nav-pills">
+        <li class="nav-item spaced-item-firt">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Domain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Hosting</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+        </li>
+
+        <li class="nav-item spaced-item">
+          <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+
+      </ul>
+    
+    </div>
+  </header>
+  <div style="max-width: 100%; background-color: red;"><img src="/assets/free-hosting-website-template-image.jpg" style="width: 100%;" alt=""></div>
+  <div style="display: flex;align-items: center;justify-content:center ;margin-top: 2%;">
+    <i style="margin-bottom: 0.7%;margin-right: 1%;" class="fa-sharp fa-solid fa-globe fa-lg"></i><p class="domain-txt">Register Your Domain Now!</p>
+  </div>
+  <div style="display: flex;">
+    <div style="width: 20%;"></div>
+    <input type="text" id="search" name="search">
+    <div class="com"><p class="com-txt">.COM</p></div>
+    <div class="search-domain"><p>SEARCH DOMAIN</p></div>
+  </div>
+  <div style="display: flex;align-items: center; justify-content: center;margin-left: 4%;padding-top: 2% ;">
+    <div class="spacer"><span class="spacer-span" >.com </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.co.in </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.website </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.net</span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.org </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.online </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.store </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+    <div class="spacer" ><span class="spacer-span" >.biz </span><span class="spacer-price" >$9.99</span><p>(1 Year)</p></div>
+  </div>
+  <div style="display: flex; justify-content: center;align-items: center;">
+    <button class="domain-price-list-button"><span style="font-size: 15px;">Domain Price List</span></button>
+  </div>
+  <div style="display: flex; justify-content: center;align-items: center;">
+    <p class="popular-pricing">POPULAR PRICING PACKAGES</p>
+  </div>
+  <div style="display: flex; justify-content: center;align-items: center;" >
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/1st.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <!-- <h5 class="card-title">Card title</h5> -->
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Web Space 10GB <br> BandWidth 100GB <br>Websites 1 <br> Email IDs Unlimited <br>Subdomain Unlimited <br> FTP Unlimited <br> MYSQL DB Unlimited</p>
+        <div style="display: flex; justify-content: center;align-items: center; background-color: grey; opacity: 0.7;height: 50px;"><span style="color: lawngreen;font-size: 30px;font-weight: 600;">$29</span><span>/mo</span></div>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="width: 7%;"></div>
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/2nd.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <!-- <h5 class="card-title">Card title</h5> -->
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Web Space 100GB <br> BandWidth 500GB <br>Websites 1 <br> Email IDs Unlimited <br>Subdomain Unlimited <br> FTP Unlimited <br> MYSQL DB Unlimited</p>
+        <div style="display: flex; justify-content: center;align-items: center; background-color: grey; opacity: 0.7;height: 50px;"><span style="color: lawngreen;font-size: 30px;font-weight: 600;">$49</span><span>/mo</span></div>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="width: 7%;"></div>
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/3rd.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <!-- <h5 class="card-title">Card title</h5> -->
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Web Space Unlimited <br> BandWidth Unlimited <br>Websites 1 <br> Email IDs Unlimited <br>Subdomain Unlimited <br> FTP Unlimited <br> MYSQL DB Unlimited</p>
+        <div style="display: flex; justify-content: center;align-items: center; background-color: grey; opacity: 0.7;height: 50px;"><span style="color: lawngreen;font-size: 30px;font-weight: 600;">$69</span><span>/mo</span></div>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center;align-items: center;">
+    <p class="popular-pricing">OUR SERVICES</p>
+  </div>
+  <div style="display: flex; justify-content: center;align-items: center;" >
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/1st_2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div style="display: flex;justify-content: center;align-items: center;">
+          <h5 class="card-title">Complete Analysis</h5>
+        </div>
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi sint a libero quod vero veniam consequuntur eius molestias, perspiciatis asperiores optio. Repudiandae voluptas consectetur illo aperiam quisquam! Cupiditate, blanditiis.</p>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+        </div>
+      </div>
+    </div>  
+    <div style="width: 7%;"></div>
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/2nd_2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div style="display: flex;justify-content: center;align-items: center;">
+          <h5 class="card-title">Unlimited Storage</h5>
+        </div>
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et voluptates dolorum, aliquam in tempore quas eaque tenetur explicabo impedit laudantium aliquid id corrupti ratione qui! Aut aperiam aspernatur ipsa hic?</p>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="width: 7%;"></div>
+    <div class="card" style="width: 18rem;">
+      <img src="/assets/3rd_2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div style="display: flex;justify-content: center;align-items: center;">
+          <h5 class="card-title">Domain Transfer</h5>
+        </div>
+        <p style="display: flex; justify-content: center;align-items: center;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, corrupti magni, dolorem hic adipisci aut neque voluptate aliquam asperiores necessitatibus odit autem labore praesentium facere quo aspernatur rem dolores? Quisquam.</p>
+        <div style="display: flex; justify-content: center;align-items: center;">
+          <button class="domain-price-list-button"><span style="font-size: 15px;">Continue</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="max-width: 100%;">
+<img style="width: 100%;" src="/assets/banner_2nd.png" alt="">
+  </div>
+  <div style="display: flex;align-items: center; justify-content: center;margin-left: 4%;padding-top: 2% ;">
+    <div class="spacer"><span  >Happy Clients </span><p class="number-people">75,000</p></div>
+    <div class="spacer" ><span  >Servers </span><p class="number-people">2,400</p></div>
+    <div class="spacer" ><span  >Dedicated Staff </span><p class="number-people">1,500</p></div>
+    <div class="spacer" ><span  >Awards Won </span><p class="number-people">3,011</p></div>
+  </div>
+  <footer style="max-width: 100%;">
+    <img style="width: 100%;" src="/assets/footer.png" alt="">
+  </footer>
+</body>
+
+</html>
