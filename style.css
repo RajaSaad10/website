@@ -1,0 +1,72 @@
+.headerTop{
+  background-color: lawngreen;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  padding-left: 8%;
+}
+.headerMiddle{
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding-left: 8%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: transparent !important;
+}
+.nav-item:hover{
+  background-color: lawngreen !important;
+}
+.nav-link{
+  color: #fff !important;
+}
+.spaced-item {
+  margin-left: 700px; /* Adjust the value to your desired spacing */
+}
+.spaced-item-firt {
+  margin-left: 70px; /* Adjust the value to your desired spacing */
+}
+.domain-txt{
+  font-size: 30px;
+  font-weight: 650;
+}
+.com-txt{
+  font-size: 20px;
+  font-weight: 650;
+}
+.spacer{
+  margin-right: 6%;
+}
+.spacer-span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.popular-pricing{
+  font-size: 23px;
+  font-weight: 700;
+}
+.spacer-price{
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.domain-price-list-button {
+ /* border-color: lawngreen; */
+  color: black; /* white text */
+  padding: 15px 30px;
+  border: 1px solid lawngreen;
+  border-radius: 70px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.domain-price-list-button:hover{
+  background-color: lawngreen;
+}
+.number-people{
+  font-size: 40px;
+  font-weight: 700;
+}
